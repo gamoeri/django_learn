@@ -9,7 +9,7 @@ def commit():
     local("git add . && git commit")
 
 def push():
-    local("git push")
+    local("git push origin master")
 
 def prepare_deploy():
     test()
