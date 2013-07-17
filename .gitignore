@@ -1,6 +1,7 @@
 *.pyc 
 *.json 
 settings/settings.py
+dproject/*.pyc
 settings/settings.pyc
 settings.pyc
 polls/*.pyc
