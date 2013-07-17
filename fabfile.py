@@ -8,12 +8,16 @@ def test():
 def commit():
     local("git add . && git commit")
 
+def merge():
+    local("git checkout master && git merge dev && git push origin master")
+
 def push():
     local("git push origin master")
 
 def prepare_deploy():
     test()
     commit()
-    push
+    merge()
+    push()
 
 

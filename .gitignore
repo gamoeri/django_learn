@@ -2,8 +2,8 @@
 *.json 
 settings/settings.py
 settings/settings.pyc
+settings.pyc
 polls/*.pyc
 settings/*.pyc
 fabfile.pyc
 dproject/settings/*.pyc
-
